@@ -1,73 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47" started-at="2018-06-22T08:39:24Z" finished-at="2018-06-22T08:39:24Z">
+  <suite name="Suite" duration-ms="65434" started-at="2018-06-22T11:43:59Z" finished-at="2018-06-22T11:45:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47" started-at="2018-06-22T08:39:24Z" finished-at="2018-06-22T08:39:24Z">
-      <class name="com.sample.Dataprovider">
-        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.sample.Dataprovider@144fc21]" name="setData" duration-ms="15" started-at="2018-06-22T08:39:24Z" data-provider="data" finished-at="2018-06-22T08:39:24Z">
+    <test name="FirefoxTest" duration-ms="40732" started-at="2018-06-22T11:43:59Z" finished-at="2018-06-22T11:44:40Z">
+      <class name="com.sample.MultiBrow">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.sample.MultiBrow@186dec2]" name="beforeTest" is-config="true" duration-ms="29207" started-at="2018-06-22T11:43:59Z" finished-at="2018-06-22T11:44:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[qaplanet1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qaplanet]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.sample.Dataprovider@144fc21]" name="setData" duration-ms="0" started-at="2018-06-22T08:39:24Z" data-provider="data" finished-at="2018-06-22T08:39:24Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.sample.MultiBrow@186dec2]" name="login" duration-ms="8813" started-at="2018-06-22T11:44:28Z" finished-at="2018-06-22T11:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sample.MultiBrow@186dec2]" name="afterTest" is-config="true" duration-ms="2694" started-at="2018-06-22T11:44:37Z" finished-at="2018-06-22T11:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sample.MultiBrow -->
+    </test> <!-- FirefoxTest -->
+    <test name="chromeTest" duration-ms="24681" started-at="2018-06-22T11:44:40Z" finished-at="2018-06-22T11:45:05Z">
+      <class name="com.sample.MultiBrow">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.sample.MultiBrow@1d677df]" name="beforeTest" is-config="true" duration-ms="21115" started-at="2018-06-22T11:44:40Z" finished-at="2018-06-22T11:45:01Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[qaplanet13]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qaplanet]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.sample.Dataprovider@144fc21]" name="setData" duration-ms="0" started-at="2018-06-22T08:39:24Z" data-provider="data" finished-at="2018-06-22T08:39:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[qaplanet12]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[qaplanet]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.sample.MultiBrow@1d677df]" name="login" duration-ms="2868" started-at="2018-06-22T11:45:01Z" finished-at="2018-06-22T11:45:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.sample.Dataprovider@144fc21]" name="setData" duration-ms="0" started-at="2018-06-22T08:39:24Z" data-provider="data" finished-at="2018-06-22T08:39:24Z">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-          </params>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.sample.MultiBrow@1d677df]" name="afterTest" is-config="true" duration-ms="697" started-at="2018-06-22T11:45:04Z" finished-at="2018-06-22T11:45:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setData -->
-      </class> <!-- com.sample.Dataprovider -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.sample.MultiBrow -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
 </testng-results>
