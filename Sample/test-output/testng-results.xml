@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47" started-at="2018-06-22T08:39:24Z" finished-at="2018-06-22T08:39:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47" started-at="2018-06-22T08:39:24Z" finished-at="2018-06-22T08:39:24Z">
+      <class name="com.sample.Dataprovider">
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.sample.Dataprovider@144fc21]" name="setData" duration-ms="15" started-at="2018-06-22T08:39:24Z" data-provider="data" finished-at="2018-06-22T08:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaplanet1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qaplanet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.sample.Dataprovider@144fc21]" name="setData" duration-ms="0" started-at="2018-06-22T08:39:24Z" data-provider="data" finished-at="2018-06-22T08:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaplanet13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qaplanet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.sample.Dataprovider@144fc21]" name="setData" duration-ms="0" started-at="2018-06-22T08:39:24Z" data-provider="data" finished-at="2018-06-22T08:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaplanet12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[qaplanet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.sample.Dataprovider@144fc21]" name="setData" duration-ms="0" started-at="2018-06-22T08:39:24Z" data-provider="data" finished-at="2018-06-22T08:39:24Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+      </class> <!-- com.sample.Dataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
